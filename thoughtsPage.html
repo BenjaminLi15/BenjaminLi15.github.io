@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="thoughtsPage.css">
+    <!-- <script src="index.js"></script> -->
+    <title>About Me</title>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "15vw";
+            document.getElementById("border").style.width = "82vw";
+        }
+                  
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0vw";
+            document.getElementById("border").style.width = "90vw";
+        }
+    </script>
+</head>
+<body>
+    <div class ="container">
+        <div class = "subContainer1">
+            <h1>Random Thoughts/Questions: Important questions (+answers) in my life.</h1>
+            <h2><em>How 'bout some Socratic questioning?</em></h2>
+            <h3>Is a hot dog a sandwich?</h3>
+            <p>Short Answer: Yes; A sandwich is composed of a filling between 2 pieces of bread, a hot dog bun (unless you break it apart) is merely 1 piece.</p>
+            <h3>What is the best tool?</h3>
+            <p>Your hands; Hands drive many other machines and are the most versatile. Make thorough use of your God-given treasures. The 3D printer and flat screwdriver, a close second and third.</p>
+            <h3>Background image (css) or img tag (html)?</h3>
+            <p>Background image tends to be more intuitive and easier to implement for static background-images. So when adjusting code it's a bit simpler. Though img tags are more versatile.</p>
+            <h3>What is the coolest incoming tech?</h3>
+            <p>Highlighted by the M.A.N.I.A.C, the first computer to defeat a human in a game of chess (albeit modified), the power of computers has continued to grow. The modern field of artificial intelligence is constantly growing, its applications along with it. The new robots and programs powered by artificial intelligence are awesome to see and watch grow.</p>
+            <!-- <h3>What is the coolest place I've visited?</h3>
+            <h3>What is one of the most unique experiences I've had?</h3> -->
+            <h3>When will automation be too much?</h3>
+            <p>In history it was the goal of many people, to utilize machines to boost productivity and gains; bettering society. Though now, I'm seeing it as more so widening the gap between social classes. The rich becoming richer, the poor becoming poorer, the middle class growing more and more estranged. I think the smarter automation is awesome, but it should not exclipse the blue collar workforce.</p>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id = "border">
+            <div></div>
+        </div>
+        <div class = "subContainer">
+            <div id = "backgroundImage"></div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="aboutMePage.html">About Me</a>
+                <a href="#">Passions</a>
+                <a href="#">The Future</a>
+                <a href="hobbiesPage.html">Hobbies</a>
+                <a href="#">Random Thoughts/ Questions</a>
+            </div>
+            <span style="font-size:8vh;cursor:pointer" onclick="openNav()" class = "spanL">&#9776; </span>
+        </div>
+    </div>
+</body>
+</html>

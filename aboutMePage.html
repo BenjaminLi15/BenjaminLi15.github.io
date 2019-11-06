@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="aboutMePage.css">
+    <!-- <script src="index.js"></script> -->
+    <title>About Me</title>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "15vw";
+            document.getElementById("border").style.width = "82vw";
+        }
+                  
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0vw";
+            document.getElementById("border").style.width = "90vw";
+        }
+    </script>
+</head>
+<body>
+    
+    <div class ="container">
+        <div class = "subContainer1">
+            <h1>Who I Am</h1>
+            <img src="imagesPics/profilePic.jpg" id = "profPic">
+            <div>
+                <p id = "aboutMePara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class = "subContainer2">
+            <div class = "space"></div>
+            <div class = "info">
+                <hr></br>
+                <h2>Highschool:</h2>
+                <div class = "ans"> Livingston High School </div>
+                <h2>Grade:</h2>
+                <div class = "ans"> Senior(12) - Woo </div>
+                <h2>Favorite Programming Language:</h2>
+                <div class = "ans"> Python </div>
+                <h2>Favorite Courses:</h2>
+                <div class = "ans"> Physics and Mathematics Courses </div>
+                <h2>Favorite Book:</h2>
+                <div class = "ans"> Algorithms to Live By </div>
+                <h2>Favorite Food:</h2>
+                <div class = "ans"> Anything Spicy, honestly most things (I'm an equal opportunity food lover) </div>
+            </br><hr>
+            </div>
+        </div>
+        <div id = "border">
+            <div></div>
+        </div>
+        <div class = "subContainer">
+            <div id = "backgroundImage"></div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Passions</a>
+                <a href="#">The Future</a>
+                <a href="hobbiesPage.html">Hobbies</a>
+                <a href="thoughtsPage.html">Random Thoughts/ Questions</a>
+            </div>
+            <span style="font-size:8vh;cursor:pointer" onclick="openNav()" class = "spanL">&#9776; </span>
+        </div>
+    </div>
+</body>
+</html>

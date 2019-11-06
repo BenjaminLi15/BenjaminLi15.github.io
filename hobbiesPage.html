@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="hobbiesPage.css">
+    <!-- <script src="index.js"></script> -->
+    <title>About Me</title>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "15vw";
+            document.getElementById("border").style.width = "82vw";
+        }
+                  
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0vw";
+            document.getElementById("border").style.width = "90vw";
+        }
+    </script>
+</head>
+<body>
+    <div class ="container">
+        <div class = "subContainer1">
+            <h1>Fun Stuff</h1>
+            <div class ="column" id = "sep">
+                <hr>
+                <img src="imagesPics/RubiksCube.png" id = "RC">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <hr id = "close">
+            </div>
+            <div class ="column" id = "sep">
+                <hr>
+                <img src ="imagesPics/TennisRacquet.png" id = "TR">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <hr id = "close">
+            </div>
+            <div class ="column">
+                <hr>
+                <img src ="imagesPics/LaptopProgramming.png" id = "LP">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <hr id = "close">
+            </div>
+        </div>
+        <div id = "border">
+            <div></div>
+        </div>
+        <div class = "subContainer">
+            <div id = "backgroundImage"></div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="aboutMePage.html">About Me</a>
+                <a href="#">Passions</a>
+                <a href="#">The Future</a>
+                <a href="#">Hobbies</a>
+                <a href="thoughtsPage.html">Random Thoughts/ Questions</a>
+            </div>
+            <span style="font-size:8vh;cursor:pointer" onclick="openNav()" class = "spanL">&#9776; </span>
+        </div>
+    </div>
+</body>
+</html>
