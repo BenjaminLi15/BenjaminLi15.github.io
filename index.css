@@ -36,6 +36,7 @@ p { /*Skinnier font*/
     margin-left: 45vw;
     transform: translateX(-50%);   
     font-family: 'Oswald', sans-serif;
+    z-index: 99999;
 }
 .subContainer {
     position: relative;
